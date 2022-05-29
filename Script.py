@@ -3,11 +3,11 @@ class script(object):
 
 <i>Iam A Simple Auto Filter + Manual Filter + Extra Features Bot. I Can Provide Movies In Telegram Groups.I Can Also Add Filters In Telegram Groups.  Just Add Me To Your Group And Enjoy</i>"""
     HELP_TXT = """<b>Hᴇʟʟᴏ {}
-Welcome to Help Area 1 🎁</b>"""
+Welcome to Help Area ★ 🎁</b>"""
     HELOP_TXT = """<b>Hᴇʟʟᴏ {}
-Welcome to Help Area 2 🎁</b>"""
+Welcome to Help Area ✰ 🎁</b>"""
     HELOOP_TXT = """<b>Hᴇʟʟᴏ {}
-Welcome to Help Area 3 🎁</b>"""
+Welcome to Help Area ✯ 🎁</b>"""
     SPSHIVA_TXT = """<b><i>This Is The Module Page Info</i>
 
 🔰 Your Taken Page Is 1/3 📖</b>"""
@@ -17,7 +17,7 @@ Welcome to Help Area 3 🎁</b>"""
     SPSHIVA3_TXT = """<b><i>This Is The Module Page Info</i>
 
 🔰 Your Taken Page Is 3/3 📖</b>"""
-    ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/Spidey_Autofilterbot'>sᴘɪᴅᴇʏ</a>
+    ABOUT_TXT = """<b>🤖 𝖡ᴏᴛ ɴᴀᴍᴇ : <a href='http://t.me/tedzo_file_s_bot'>𝘔𝘐𝘈</a>
 
 📝 𝖫ᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/'>𝖯ʏᴛʜᴏɴ</a>
 
@@ -25,13 +25,11 @@ Welcome to Help Area 3 🎁</b>"""
 
 📡 𝖧ᴏsᴛᴇᴅ ᴏɴ : <a href='http://heroku.com/'>𝖧ᴇʀᴏᴋᴜ</a>
 
-👨‍💻 𝖣ᴇᴠᴇʟᴏᴘᴇʀ : <a href='http://t.me/OGGY123kph'>𝖲ʜɪᴠᴀ</a>
+👨‍💻 𝖣ᴇᴠᴇʟᴏᴘᴇʀ : <a href='http://t.me/tedzosir01'>𝐓𝐄𝐃𝐙𝐎</a>
 
-📃 𝖲ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/kgf_2_movie_r'>𝖢ʟɪᴄᴋ ʜᴇʀᴇ</a>
+📃 𝖲ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/tedzo_v3_bot'>𝖢ʟɪᴄᴋ ʜᴇʀᴇ</a>
 
-👥 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href='https://t.me/Coby_Support'>𝖬𝖧 ʙᴏᴛs</a>
-
-📢 𝖴ᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+NeK_dvXeatwyMWRl'>𝖬𝖧 ʙᴏᴛs</a></b>"""
+📢 𝖴ᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/tzobotz'>TEDZO BOTS</a></b>"""
     
     FILE_TXT = """➤ Help: File Store Module..🛃
 
@@ -46,7 +44,7 @@ Welcome to Help Area 3 🎁</b>"""
 <b><i>⪼ Example ›</i></b>
 <code>/batch https://t.me/c/1541932075/4957 https://t.me/c/1541932075/4958</code>
 
-<b>Credits</b> ›› <a href=https://t.me/moviehubgroupp><b>MH-UPDATES</b></a>"""
+<b>Credits</b> ›› <a href=https://t.me/tedzomovie01><b>TEDZO UPDATES</b></a>"""
     WHOIS_TXT ="""<b>WHOIS MODULE</b>
 Note:- Give a user details
 •/whois :-give a user full details"""
@@ -61,18 +59,17 @@ Note:- Give a user details
 5. /luck or /cownd - Spin And Try Your Luck"""
     DEPLOY_TXT = """<b>𝙷𝙾𝚆 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈..?</b> 
   
-<b>✮ Deploy Tutorial ››</b> <i><b>https://youtu.be/kB9TkCs8cX0</b></i>
+<b>✮ Deploy Tutorial ››</b> <i><b>https://youtu.be/kB9TkCs8cXtu</b></i>
 
-<b>𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝚃𝙷𝙴 𝙰𝙹𝙰𝚇-𝙿𝚁𝙾-𝙼𝙰𝚇 𝚁𝙴𝙿𝙾 𝙲𝙾𝙽𝚃𝙰𝙲𝚃 <a href=https://t.me/Aadhi011>𝙰𝙰𝙳𝙷𝙸</a></b>
 
 <b>𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴</b>
-𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/MWUpdatez><b>𝙼𝚆-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
+𝙲𝚁𝙴𝙳𝙸𝚃𝚂 ›› <a href=https://t.me/tzobotz><b>-𝚄𝙿𝙳𝙰𝚃𝙴𝚉</b></a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and ᗩᒍᗩ᙭  will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and TᗴᗪᘔO  will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᗩᒍᗩ᙭ should have admin privillage.
+1. TᗴᗪᘔO should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -88,7 +85,7 @@ Note:- Give a user details
 <b>Commands</b>
 ››  /song Song Name
 
-<b>📝 Credits :- <a href=https://t.me/MovieHubOtt>MH-Updates</a></b>"""
+<b>📝 Credits :- <a href=https://t.me/tedzomovie01>𝕞𝕠𝕧𝕚𝕖𝕤</a></b>"""
     PIN_TXT ="""<b>PIN MODULE</b>
 
 <b>Pin A Message../</b>
@@ -188,7 +185,7 @@ Delete A Lot Of Messages From Groups!
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/Spidey_Files)</code>
+<code>[Button Text](buttonurl:https://t.me/chan266ff)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
