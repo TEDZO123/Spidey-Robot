@@ -38,7 +38,7 @@ async def answer(bot, query):
                                                   offset=offset)
 
     for file in files:
-        title=file.file_name
+        title=file.file_caption
         size=get_size(file.file_size)
         f_caption=file.caption
         if CUSTOM_FILE_CAPTION:
@@ -51,7 +51,7 @@ async def answer(bot, query):
             f_caption = f"{file_caption}"
         results.append(
             InlineQueryResultCachedDocument(
-                title=file_caption,
+                title=file.file_caption,
                 file_id=file.file_id,
                 caption=f_caption,
                 description=f'Size: {get_size(file.file_size)}\nType: {file.file_type}',
