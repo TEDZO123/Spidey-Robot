@@ -43,12 +43,12 @@ async def answer(bot, query):
         f_caption=file.caption
         if CUSTOM_FILE_CAPTION:
             try:
-                f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
+                f_caption=CUSTOM_FILE_CAPTION.format(file_caption=f_caption,file_name=title, file_size=size)
             except Exception as e:
                 logger.exception(e)
                 f_caption=f_caption
         if f_caption is None:
-            f_caption = f"{file.file_name}"
+            f_caption = f"{file_caption}"
         results.append(
             InlineQueryResultCachedDocument(
                 title=file.file_name,
@@ -95,6 +95,7 @@ def get_reply_markup(query):
         ]
         ]
     return InlineKeyboardMarkup(buttons)
+
 
 
 
