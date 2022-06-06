@@ -43,7 +43,7 @@ async def answer(bot, query):
         f_caption=file.caption
         if CUSTOM_FILE_CAPTION:
             try:
-                f_caption=CUSTOM_FILE_CAPTION.format(file_name=f_caption,file_caption=title, file_size=size)
+                f_caption=CUSTOM_FILE_CAPTION.format(file_caption=title, file_size=size, file_name=f_caption)
             except Exception as e:
                 logger.exception(e)
                 f_caption=f_caption
