@@ -17,7 +17,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='You have to subscribe my updates to use the bot',
                            switch_pm_parameter="subscribe")
         return
 
@@ -38,20 +38,20 @@ async def answer(bot, query):
                                                   offset=offset)
 
     for file in files:
-        title=file.file_caption
+        title=file.file_name
         size=get_size(file.file_size)
         f_caption=file.caption
         if CUSTOM_FILE_CAPTION:
             try:
-                f_caption=CUSTOM_FILE_CAPTION.format(file_caption=title, file_size=size, file_name=f_caption)
+                f_caption=CUSTOM_FILE_CAPTION.format(file_name=title, file_size=size, file_caption=f_caption)
             except Exception as e:
                 logger.exception(e)
                 f_caption=f_caption
         if f_caption is None:
-            f_caption = f"{file.file_caption}"
+            f_caption = f"{file.file_name}"
         results.append(
             InlineQueryResultCachedDocument(
-                title=file.file_caption,
+                title=file.file_name,
                 file_id=file.file_id,
                 caption=f_caption,
                 description=f'Size: {get_size(file.file_size)}\nType: {file.file_type}',
